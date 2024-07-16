@@ -1,13 +1,13 @@
 {
-  "homepage": "https://AbdullahShabaan.github.io/Route-Task",
+  "homepage": "https://AbdullahShabaan.github.io/Route-Task-Submit/",
   "name": "route-task",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predepoloy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
