@@ -1,0 +1,30 @@
+.css-1b348v {
+  max-width: 100% !important;
+}
+.btn {
+  width: 60px;
+}
+.btns-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  width: "100%";
+  display: "flex";
+  justify-content: "center";
+}
+
+.w-100 {
+  width: 500px;
+  height: 200px;
+}
+
+@media (max-width: 767px) {
+  .w-100 {
+    width: 100%;
+  }
+  .graph {
+    width: 100%;
+  }
+}
